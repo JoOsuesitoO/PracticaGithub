@@ -1,0 +1,272 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: aliceblue;    
+}
+
+@font-face {
+    font-family: 'jose';
+    src: url('JosefinSans-SemiBold.ttf'); 
+}
+
+@font-face {
+    font-family: 'monse';
+    src: url('Montserrat-Regular.ttf'); 
+}
+
+@font-face {
+    font-family: 'monseT';
+    src: url('Montserrat-ExtraLight.ttf'); 
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.slides{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    gap: 50px;
+}
+
+#slide2{
+    background: linear-gradient(to right, #142D55, #0856CF); 
+    flex-direction: column;
+    gap:5px;
+}
+
+#uno{
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+}
+
+#headi{
+    width: 850px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0);
+    float: left;
+    background-image: url("TecNM-logo-216x300 (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png");
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: 50px center; 
+}
+
+h1{
+    margin-top: 20px;
+    font-size: 14px;
+    margin-left: 100px;
+    font-family: monseT;
+    color: #B7E3FF;
+}
+
+h2{
+    margin-left: 5px;
+    margin-top: 15px;
+    font-size: 22px;
+    font-family: monse;
+}
+#heade{
+    width: 440px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0);
+    float: right;
+    background-image: url(usuario\ \(1\)\ \(1\).png) ;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 50px center; 
+}
+
+#dos{
+   width: 100%;
+   height: 510px;
+   background-color: rgba(255, 255, 255, 0);
+}
+
+#principal{
+    background-color: rgba(255, 255, 255, 0);
+    width: 60%;
+    height: 500px;
+    float: left;
+}
+
+#principal2{
+    width: 40%;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0);
+    float: right;
+    text-align: left;
+}
+
+#git{
+    width: 200px;
+    height: 200px;
+    background-color: #0856CF;
+    margin-top: 20px;
+    margin-left: 230px;
+    border-radius: 100px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url(Git_icon.svg\ \(1\).png);
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform:translatex(0px);
+    animation: float 6s ease-out infinite; 
+}
+
+@keyframes float {
+    0%{
+    transform: translateY(0px);
+    }
+    50%{
+    transform: translateY(-60px);
+    }
+    100%{
+    transform: translateY(0px);
+    }
+  }
+
+#gitu{
+    width: 240px;
+    height: 240px;
+    background-color: #0856CF;
+    margin-top: 30px;
+    margin-left: 240px;
+    border-radius: 150px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url(GitHub_Invertocat_Logo.svg\ \(1\).png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: center;
+    transform:translatex(0px);
+    animation: float 6s ease-out infinite; 
+}
+
+#lara{
+    position: relative;
+    width: 235px;
+    height: 235px;
+    background-color: #0856CF;
+    margin-top: -325px ;
+    margin-left: 10px;
+    border-radius: 150px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url(1200px-Laravel.svg\ \(1\).png);
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: center;
+    transform:translatex(0px);
+    animation: float 6s ease-out infinite; 
+}
+
+h2{
+    margin-top: 90px;
+    margin-left: 45px;
+    font-size: 115px;
+    font-family: jose;
+}
+
+h3{
+    margin-top: 10px;
+    margin-left: 45px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: monseT;
+    color: #B7E3FF;
+}
+
+
+#boton{
+    margin-left: 45px;
+    height: 35px ;
+    width: 130px;
+    margin-bottom: 30px;
+    border-radius: 9px;
+    border: none;
+    font-family: monse;
+    background-color: #4B92FF;
+    transition: background 0.3s ease;
+    cursor: pointer;
+}
+
+#boton:hover{
+    background: #0856CF;
+}
+
+#scrollButton{
+    background-color: rgba(255, 255, 255, 0);
+    margin-left: 20px;
+    border-radius: 20px;
+    width: 70px;
+    height: 70px;
+    border: none;
+    background-image: url(angulo-doble-pequeno-hacia-abajo\ \(1\)\ \(1\).png);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    cursor: pointer;
+
+}
+#slide1{
+    background-color:rgb(255, 255, 255);
+    background-image: url(PROGRAMADORES.png);
+    background-position: center; 
+    background-size: 1300px;
+    background-repeat: no-repeat;
+}
+
+#userpic{
+    background-image: url(joshua.png);
+    background-size: 270px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    background-color: #ffffff00;
+    border: 2px solid  #0856CF; 
+    transform:translatex(0px);
+    animation: float 6s ease-out infinite; 
+    border-radius: 50%;
+    position: absolute;
+    top: 120%;
+    left: 25%
+}
+
+#userpic2{
+    background-image: url(io.png);
+    background-size: 270px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    background-color: #ffffff00;
+    border: 2px solid  #0856CF; 
+    transform:translatex(0px);
+    animation: float 6s ease-out infinite; 
+    border-radius: 50%;
+    position: absolute;
+    top: 120%;
+    left: 55%
+}
+
+h4{
+    margin-top: 35%;
+    margin-left: 380px;
+    margin-right: 160px;
+}
+h5{
+    margin-top: 35%;
+
+}
+h4, h5{
+    font-size: 15px;
+    font-family: monseT;
+    color: #142D55;
+}
+
